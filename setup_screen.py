@@ -2,7 +2,7 @@ import turtle
 
 def setup_screen(title="Program", lenx=640, leny=320, \
     background="white", tracer_size=800):
-    """Sets up a turtle window
+    """Sets up the turtle window. Required to run the main script
     title - the title of the program window
     lenx - horizontal pixel length of window
     leny - vertical pixel length of window
