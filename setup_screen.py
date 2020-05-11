@@ -17,7 +17,7 @@ def setup_screen(title="Program", lenx=640, leny=320, \
     turtle.penup()
     turtle.backward(240)
     # Makes rendering faster by completing multiple actions in
-        # memory before rendering
+    # memory before rendering
     turtle.tracer(tracer_size)  
     turtle.bgcolor(background)
     print("Screen setup finished")
